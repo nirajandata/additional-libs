@@ -44,6 +44,7 @@ std::map<string,string> get_env_fromFile(std::string path=".env"){
     return baniya;
 }
 
+//Kept as TODO for somedays as I have some homeworks to do for college
 std::string get_env_fromOS(std::string token_name){
 
 }
