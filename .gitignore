@@ -2,4 +2,4 @@
 *.cpp
 .env
 *.out
-gcm.cache
+/gcm.cache
