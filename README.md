@@ -11,11 +11,13 @@ It will have two features:
 Sample code :
 
 ```cpp
-#include "getenv.h"
-
-int main(){
-   std::map<std::string,std::string> h= get_env_fromFile();
-   std:: cout << h["hello"];
+#include <iostream>
+#include <map>
+import modenv;
+int main() {
+  std::map<std::string, std::string> h = env::getenv();
+  std::cout << h["hello"];
+  std::cout << h["test"];
 }
 
 ```
