@@ -1,4 +1,5 @@
-// usuage: (420^666) mod 777
+// example: 420^666) mod 777
+// I felt bored to implement Montgomery reduction for efficient mod
 
 module;
 
@@ -7,7 +8,7 @@ export module modenv;
 
 
 
-[[nodiscard]] constexpr u_int64_t modmul(u_int64_t value,u_int64_t md){
+[[nodiscard]] constexpr u_int64_t modmul(u_int64_t value,u_int64_t md) noexcept{
     while(value>=md)
         value-=md;
 
