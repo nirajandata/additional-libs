@@ -1,7 +1,7 @@
 module;
 #include <unordered_map>
 
-export module modenv;
+export module bignums;
 
 
 export namespace bignum {
